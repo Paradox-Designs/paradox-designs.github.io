@@ -2858,8 +2858,8 @@
 		}
 
 		.wrapper.style1 {
-			background-color: rgba(238, 238, 238, 0);
-			color: #777;
+			background-color: rgba(255, 255, 255, 0);
+			color: rgb(119, 119, 119);
 		}
 
 			.wrapper.style1 input, .wrapper.style1 select, .wrapper.style1 textarea {
