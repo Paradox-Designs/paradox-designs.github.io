@@ -2804,16 +2804,16 @@
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: flex;
+		display: revert;
 		-moz-flex-wrap: wrap;
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		margin-bottom: 4em;
+		margin-bottom: em;
 	}
 
 		.image-grid .image {
-			margin: 0;
+			margin: 2;
 			width: 25%;
 		}
 
@@ -2824,11 +2824,11 @@
 		@media screen and (max-width: 980px) {
 
 			.image-grid {
-				margin-bottom: 3em;
+				margin-bottom: 1em;
 			}
 
 				.image-grid .image {
-					width: 50%;
+					width: 40%;
 				}
 
 		}
@@ -3331,7 +3331,7 @@
 			background-color: #1E2832;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("../../images/pic11.jpg");
+			background-image: url("images/overlay.png"), url("../../images/backgroundimage2.png");
 			background-size: cover;
 		}
 
@@ -3897,7 +3897,7 @@
 		}
 
 		#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-			color: #fff;
+			color: rgb(255, 255, 255);
 		}
 
 		#banner blockquote {
@@ -4000,7 +4000,8 @@
 				}
 
 		#banner h2 {
-			font-size: 3.5em;
+			font-size: 6.5em;
+			font-family: 'Times New Roman', Times, serif;
 			margin: 0 0 0.5em 0;
 			padding: 0;
 		}
@@ -4017,7 +4018,7 @@
 			border: solid 2px #fff;
 			color: #fff;
 			display: inline-block;
-			font-size: 3em;
+			font-size: 2em;
 			height: 2.25em;
 			line-height: 1.25em;
 			margin-bottom: 0.5em;
@@ -4028,7 +4029,7 @@
 		@media screen and (max-width: 1680px) {
 
 			#banner {
-				padding: 11em 0 9em 0;
+				padding: 16em 0 16em 0;
 			}
 
 		}
@@ -4036,11 +4037,11 @@
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 9em 0 7em 0;
+				padding: 18em 0 18em 0;
 			}
 
 				#banner h2 {
-					font-size: 2em;
+					font-size: 5em;
 				}
 
 		}
@@ -4048,19 +4049,23 @@
 		@media screen and (max-width: 980px) {
 
 			#banner {
-				padding: 8em 2em 6em 2em;
+				padding: 15em 2em 15em 2em;
 			}
+			#banner h2 {
+				font-size: 4em;
+			}
+
 
 		}
 
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 5em 2em 3em 2em;
+				padding: 14em 2em 14em 2em;
 			}
 
 				#banner h2 {
-					font-size: 1.5em;
+					font-size: 2.5em;
 				}
 
 				#banner p {
@@ -4076,11 +4081,11 @@
 		@media screen and (max-width: 480px) {
 
 			#banner {
-				padding: 5em 2em 3em 2em;
+				padding: 12em 2em 12em 2em;
 			}
 
 				#banner .icon {
-					font-size: 1.5em;
+					font-size: 2.5em;
 				}
 
 		}
