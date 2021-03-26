@@ -44,7 +44,7 @@ var firebaseConfig = {
   }*/
   function SendEmail(name, email, message) {
     Email.send({
-        Host: "smtp.gmail.com",
+        Host: "smtp@gmail.com",
         Username: "paradoxdesigns3000@gmail.com",
         Password: "ugffrpxciknswazf",
         To: "paradoxdesigns3000@gmail.com",
