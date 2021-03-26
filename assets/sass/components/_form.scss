@@ -54,7 +54,7 @@
 	.select-wrapper {
 		@include icon('\f078');
 		display: block;
-		position: relative;
+		position:initial;
 
 		&:before {
 			display: block;

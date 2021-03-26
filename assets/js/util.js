@@ -447,11 +447,12 @@
 								i.removeClass('polyfill-placeholder');
 								i.val('');
 
+
 							}
-
 						});
-
+						
 				})
+				
 				.on('reset', function(event) {
 
 					event.preventDefault();
